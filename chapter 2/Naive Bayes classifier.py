@@ -10,7 +10,7 @@ from utilities import visualize_classifier
 import pandas as pd
 from sklearn.impute import SimpleImputer
 
-input_file='data_test.txt'
+input_file= 'data_test.txt'
 data=np.loadtxt(input_file,delimiter=",")
 X,y=data[:,:-1],data[:,-1]
 

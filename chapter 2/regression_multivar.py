@@ -2,7 +2,7 @@ import numpy as np
 from sklearn import linear_model
 from sklearn.preprocessing import PolynomialFeatures
 
-input_file='data_multivar_regr.txt'
+input_file= 'data_multivar_regr.txt'
 data=np.loadtxt(input_file,delimiter=',')
 X,y=data[:,:-1],data[:,-1]
 

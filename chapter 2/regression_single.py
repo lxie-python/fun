@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 import sklearn.metrics as sm
 
-input_file='data_singlevar_regr.txt'
+input_file= 'data_singlevar_regr.txt'
 data=np.loadtxt(input_file,delimiter=',')
 X,y=data[:,:-1],data[:,-1]
 

@@ -1,0 +1,5 @@
+Ensemble Learning: building multiple models and combine them in a way that can produce better results
+When we build a model using ensemble learning, the individual models need to exhibit some diversity.
+This diversity is achieved by using different training parameters for each individual model.
+This allows the individual models to generate different decision boundaries for training data.
+This would allow them to capture various nuances in our data.
